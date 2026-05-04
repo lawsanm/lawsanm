@@ -1,10 +1,10 @@
 <div align="center">
 
 <!-- HEADER SECTION -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:fee2e2,25:fca5a5,50:ef4444,75:dc2626,100:7f1d1d&height=220&section=header&text=Hey%20there,%20I'm%20Lawsan%20👋&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Full-Stack%20Developer%20•%20UI/UX%20Enthusiast%20•%20Problem%20Solver&descSize=16&descAlignY=55&descAlign=50" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:dcfce7,25:86efac,50:22c55e,75:16a34a,100:14532d&height=220&section=header&text=Hey%20there,%20I'm%20Lawsan%20👋&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Full-Stack%20Developer%20•%20UI/UX%20Enthusiast%20•%20Problem%20Solver&descSize=16&descAlignY=55&descAlign=50" width="100%"/>
 
 <!-- TYPING ANIMATION -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=600&size=24&pause=1000&color=EF4444&center=true&vCenter=true&multiline=false&repeat=true&width=620&height=50&lines=Building+beautiful+things+for+the+web+%F0%9F%8C%90;Turning+ideas+into+polished+products+%E2%9C%A8;Obsessed+with+dark+themes+%26+clean+UI+%F0%9F%8C%99;CS+Undergrad+%40+UCSC+Sri+Lanka+%F0%9F%8E%93" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=600&size=24&pause=1000&color=22C55E&center=true&vCenter=true&multiline=false&repeat=true&width=620&height=50&lines=Building+beautiful+things+for+the+web+%F0%9F%8C%90;Turning+ideas+into+polished+products+%E2%9C%A8;Obsessed+with+dark+themes+%26+clean+UI+%F0%9F%8C%99;CS+Undergrad+%40+UCSC+Sri+Lanka+%F0%9F%8E%93" alt="Typing SVG" /></a>
 
 </div>
 
@@ -22,7 +22,7 @@ const lawsan = {
 };
 ```
 
-<img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lawsanm&layout=donut-vertical&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=e8384f&text_color=c9d1d9&langs_count=6" width="260"/>
+<img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lawsanm&layout=donut-vertical&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=22c55e&text_color=c9d1d9&langs_count=6" width="260"/>
 
 - 🔭 I'm currently building **premium web experiences** and **browser extensions**
 - 🌱 I'm diving deeper into **Next.js**, **FastAPI**, and **system design**
@@ -75,15 +75,15 @@ const lawsan = {
 ![Chrome Extensions](https://img.shields.io/badge/Chrome_Extensions-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)
 
 #### Systems & CS Fundamentals
-![DSA](https://img.shields.io/badge/Data_Structures_&_Algorithms-8b0000?style=for-the-badge&logo=leetcode&logoColor=white)
-![OS](https://img.shields.io/badge/Operating_Systems-e8384f?style=for-the-badge&logo=linux&logoColor=white)
-![Systems Programming](https://img.shields.io/badge/Systems_Programming-333333?style=for-the-badge&logo=gnu&logoColor=white)
-![Concurrency](https://img.shields.io/badge/Concurrency_&_IPC-555555?style=for-the-badge&logo=buffer&logoColor=white)
+![DSA](https://img.shields.io/badge/Data_Structures_&_Algorithms-166534?style=for-the-badge&logo=leetcode&logoColor=white)
+![OS](https://img.shields.io/badge/Operating_Systems-22c55e?style=for-the-badge&logo=linux&logoColor=white)
+![Systems Programming](https://img.shields.io/badge/Systems_Programming-15803d?style=for-the-badge&logo=gnu&logoColor=white)
+![Concurrency](https://img.shields.io/badge/Concurrency_&_IPC-4ade80?style=for-the-badge&logo=buffer&logoColor=white)
 
 #### AI & Specialized Interests
 ![AI Systems](https://img.shields.io/badge/AI_System_Design-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Optimization](https://img.shields.io/badge/Optimization_Algorithms-00C853?style=for-the-badge&logo=googlemaps&logoColor=white)
-![Web Audio](https://img.shields.io/badge/Web_Audio_API-E34F26?style=for-the-badge&logo=mozilla&logoColor=white)
+![Optimization](https://img.shields.io/badge/Optimization_Algorithms-22c55e?style=for-the-badge&logo=googlemaps&logoColor=white)
+![Web Audio](https://img.shields.io/badge/Web_Audio_API-16a34a?style=for-the-badge&logo=mozilla&logoColor=white)
 
 </div>
 
@@ -95,22 +95,22 @@ const lawsan = {
 
 <!-- PROJECT 1: LauxUp -->
 <a href="https://github.com/lawsanm/LauxUp">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=lawsanm&repo=LauxUp&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=e8384f&text_color=c9d1d9&icon_color=8b0000" />
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=lawsanm&repo=LauxUp&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=22c55e&text_color=c9d1d9&icon_color=16a34a" />
 </a>
 
 <!-- PROJECT 2: tripadi -->
 <a href="https://github.com/lawsanm/tripadi">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=lawsanm&repo=tripadi&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=e8384f&text_color=c9d1d9&icon_color=8b0000" />
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=lawsanm&repo=tripadi&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=22c55e&text_color=c9d1d9&icon_color=16a34a" />
 </a>
 
 <!-- PROJECT 3: pomodoro-timer (LawZen) -->
 <a href="https://github.com/lawsanm/pomodoro-timer">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=lawsanm&repo=pomodoro-timer&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=e8384f&text_color=c9d1d9&icon_color=8b0000" />
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=lawsanm&repo=pomodoro-timer&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=22c55e&text_color=c9d1d9&icon_color=16a34a" />
 </a>
 
 <!-- PROJECT 4: QSplit -->
 <a href="https://github.com/lawsanm/qsplit">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=lawsanm&repo=qsplit&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=e8384f&text_color=c9d1d9&icon_color=8b0000" />
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=lawsanm&repo=qsplit&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=22c55e&text_color=c9d1d9&icon_color=16a34a" />
 </a>
 
 </div>
@@ -184,14 +184,14 @@ const lawsan = {
 ## 📊 GitHub Analytics
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=lawsanm&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=e8384f&text_color=c9d1d9&icon_color=8b0000&ring_color=e8384f&count_private=true" />
-  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=lawsanm&theme=tokyonight&hide_border=true&background=0d1117&ring=e8384f&fire=8b0000&currStreakLabel=e8384f&sideLabels=c9d1d9&dates=555555" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=lawsanm&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=22c55e&text_color=c9d1d9&icon_color=16a34a&ring_color=22c55e&count_private=true" />
+  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=lawsanm&theme=tokyonight&hide_border=true&background=0d1117&ring=22c55e&fire=16a34a&currStreakLabel=22c55e&sideLabels=c9d1d9&dates=555555" />
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=lawsanm&bg_color=0d1117&color=e8384f&line=8b0000&point=e8384f&area=true&area_color=8b0000&hide_border=true" width="95%"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=lawsanm&bg_color=0d1117&color=22c55e&line=16a34a&point=22c55e&area=true&area_color=16a34a&hide_border=true" width="95%"/>
 </div>
 
 ---
@@ -205,7 +205,7 @@ const lawsan = {
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=lawsanm&style=for-the-badge&color=8b0000&label=PROFILE+VIEWS" alt="Profile Views"/>
+<img src="https://komarev.com/ghpvc/?username=lawsanm&style=for-the-badge&color=16a34a&label=PROFILE+VIEWS" alt="Profile Views"/>
 
 </div>
 
@@ -215,6 +215,6 @@ const lawsan = {
   
   *"The best way to predict the future is to build it."*
 
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:fee2e2,25:fca5a5,50:ef4444,75:dc2626,100:7f1d1d&height=100&section=footer" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:dcfce7,25:86efac,50:22c55e,75:16a34a,100:14532d&height=100&section=footer" width="100%"/>
 
 </div>
