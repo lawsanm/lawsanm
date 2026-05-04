@@ -1,10 +1,10 @@
 <div align="center">
 
 <!-- HEADER SECTION -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ffffff,50:e8384f,100:8b0000&height=220&section=header&text=Hey%20there,%20I'm%20Lawsan%20👋&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Full-Stack%20Developer%20•%20UI/UX%20Enthusiast%20•%20Problem%20Solver&descSize=16&descAlignY=55&descAlign=50" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:fee2e2,25:fca5a5,50:ef4444,75:dc2626,100:7f1d1d&height=220&section=header&text=Hey%20there,%20I'm%20Lawsan%20👋&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Full-Stack%20Developer%20•%20UI/UX%20Enthusiast%20•%20Problem%20Solver&descSize=16&descAlignY=55&descAlign=50" width="100%"/>
 
 <!-- TYPING ANIMATION -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=E8384F&center=true&vCenter=true&multiline=false&repeat=true&width=600&height=45&lines=Building+beautiful+things+for+the+web+%F0%9F%8C%90;Turning+ideas+into+polished+products+%E2%9C%A8;Obsessed+with+dark+themes+%26+clean+UI+%F0%9F%8C%99;CS+Undergrad+%40+UCSC+Sri+Lanka+%F0%9F%8E%93" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=600&size=24&pause=1000&color=EF4444&center=true&vCenter=true&multiline=false&repeat=true&width=620&height=50&lines=Building+beautiful+things+for+the+web+%F0%9F%8C%90;Turning+ideas+into+polished+products+%E2%9C%A8;Obsessed+with+dark+themes+%26+clean+UI+%F0%9F%8C%99;CS+Undergrad+%40+UCSC+Sri+Lanka+%F0%9F%8E%93" alt="Typing SVG" /></a>
 
 </div>
 
@@ -215,6 +215,6 @@ const lawsan = {
   
   *"The best way to predict the future is to build it."*
 
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ffffff,50:e8384f,100:8b0000&height=100&section=footer" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:fee2e2,25:fca5a5,50:ef4444,75:dc2626,100:7f1d1d&height=100&section=footer" width="100%"/>
 
 </div>
