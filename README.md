@@ -17,7 +17,7 @@ const lawsan = {
     pronouns: "he" | "him",
     location: "Sri Lanka 🇱🇰",
     education: "BSc Computer Science @ University of Colombo (UCSC)",
-    currentFocus: "Development",
+    currentFocus: "Converting my ideas into reality (working on it!)",
     funFact: "I redesigned my university's entire Moodle LMS because it wasn't pretty enough 😄"
 };
 ```
