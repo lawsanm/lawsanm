@@ -17,7 +17,7 @@ const lawsan = {
     pronouns: "he" | "him",
     location: "Sri Lanka 🇱🇰",
     education: "BSc Computer Science @ University of Colombo (UCSC)",
-    currentFocus: "Full-stack web apps & browser extensions",
+    currentFocus: "Development",
     funFact: "I redesigned my university's entire Moodle LMS because it wasn't pretty enough 😄"
 };
 ```
@@ -98,9 +98,9 @@ const lawsan = {
 <img src="https://github-readme-stats.vercel.app/api/pin/?username=lawsanm&repo=LauxUp&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=22c55e&text_color=c9d1d9&icon_color=16a34a" />
 </a>
 
-<!-- PROJECT 2: tripadi -->
-<a href="https://github.com/lawsanm/tripadi">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=lawsanm&repo=tripadi&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=22c55e&text_color=c9d1d9&icon_color=16a34a" />
+<!-- PROJECT 2: box-box-box -->
+<a href="https://github.com/lawsanm/box-box-box">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=lawsanm&repo=box-box-box&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=22c55e&text_color=c9d1d9&icon_color=16a34a" />
 </a>
 
 <!-- PROJECT 3: pomodoro-timer (LawZen) -->
@@ -136,18 +136,14 @@ const lawsan = {
 
 ---
 
-### 🌍 Trip Adi — Budget Intelligence for Group Travel
-> *Plan smarter trips worldwide with cost intelligence, itinerary generation, and fair budget splitting*
+### 📦 box-box-box
+> *A public project hosted on GitHub*
 
 | Feature | Details |
 |---------|---------|
-| 🎬 Cinematic UI | Glassmorphism "water glass" design with dynamic background slideshows |
-| 💰 Budget Engine | Intelligent cost estimation across Budget / Mid / Luxury tiers |
-| 🗺️ Itinerary Generator | Automated daily plans with integrated destination data |
-| 🔒 Production Security | JWT auth, bcrypt, rate limiting, CORS, security headers |
-| 🐳 Docker-Ready | Full-stack orchestration with `docker-compose` |
+| 🔗 Open Source | Publicly available on GitHub |
 
-**Tech:** `React` `Vite` `Tailwind CSS` `FastAPI` `SQLAlchemy` `Docker` `Google Maps API`
+**Tech:** `JavaScript`
 
 ---
 
