@@ -93,21 +93,31 @@ const lawsan = {
 
 <div align="center">
 
-<!-- PROJECT 1: LauxUp -->
-<a href="https://github.com/lawsanm/LauxUp">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=lawsanm&repo=LauxUp&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=22c55e&text_color=c9d1d9&icon_color=16a34a" />
-</a>
-
-
-<!-- PROJECT 3: pomodoro-timer (LawZen) -->
-<a href="https://github.com/lawsanm/pomodoro-timer">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=lawsanm&repo=pomodoro-timer&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=22c55e&text_color=c9d1d9&icon_color=16a34a" />
-</a>
-
-<!-- PROJECT 4: QSplit -->
-<a href="https://github.com/lawsanm/qsplit">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=lawsanm&repo=qsplit&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=22c55e&text_color=c9d1d9&icon_color=16a34a" />
-</a>
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <h3 align="center">LauxUp</h3>
+      <p align="center">A Chrome extension that transforms Moodle into a premium, distraction-free workspace.</p>
+      <p align="center">
+        <a href="https://github.com/lawsanm/LauxUp"><b>View Repository</b></a>
+      </p>
+    </td>
+    <td width="33%" valign="top">
+      <h3 align="center">LawZen</h3>
+      <p align="center">A personal Pomodoro timer and task manager built to fight procrastination.</p>
+      <p align="center">
+        <a href="https://github.com/lawsanm/pomodoro-timer"><b>View Repository</b></a>
+      </p>
+    </td>
+    <td width="33%" valign="top">
+      <h3 align="center">QSplit</h3>
+      <p align="center">A fintech-grade bill splitter for group orders with advanced discount handling.</p>
+      <p align="center">
+        <a href="https://github.com/lawsanm/qsplit"><b>View Repository</b></a>
+      </p>
+    </td>
+  </tr>
+</table>
 
 </div>
 
