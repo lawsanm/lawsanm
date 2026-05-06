@@ -98,10 +98,6 @@ const lawsan = {
 <img src="https://github-readme-stats.vercel.app/api/pin/?username=lawsanm&repo=LauxUp&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=22c55e&text_color=c9d1d9&icon_color=16a34a" />
 </a>
 
-<!-- PROJECT 2: box-box-box -->
-<a href="https://github.com/lawsanm/box-box-box">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=lawsanm&repo=box-box-box&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=22c55e&text_color=c9d1d9&icon_color=16a34a" />
-</a>
 
 <!-- PROJECT 3: pomodoro-timer (LawZen) -->
 <a href="https://github.com/lawsanm/pomodoro-timer">
@@ -136,16 +132,7 @@ const lawsan = {
 
 ---
 
-### 📦 box-box-box
-> *A public project hosted on GitHub*
 
-| Feature | Details |
-|---------|---------|
-| 🔗 Open Source | Publicly available on GitHub |
-
-**Tech:** `JavaScript`
-
----
 
 ### 🧘 LawZen — Focus & Anti-Procrastination
 > *A personal Pomodoro timer and task manager built to fight procrastination*
