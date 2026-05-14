@@ -22,15 +22,11 @@ const lawsan = {
 };
 ```
 
-<img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lawsanm&layout=donut-vertical&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=22c55e&text_color=c9d1d9&langs_count=6" width="260"/>
-
 - 🔭 I'm currently building **premium web experiences** and **browser extensions**
 - 🌱 I'm diving deeper into **Next.js**, **FastAPI**, and **system design**
 - 💡 I love crafting **glassmorphism UIs**, **dark themes**, and **micro-animations**
 - 🎯 Goal: Ship products that feel **premium from the first pixel**
 - ⚡ Fun fact: My Moodle extension has keyboard shortcuts faster than the original LMS itself
-
-<br clear="right"/>
 
 ---
 
