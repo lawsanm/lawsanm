@@ -177,7 +177,6 @@ const lawsan = {
 ## 📊 GitHub Analytics
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=lawsanm&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=22c55e&text_color=c9d1d9&icon_color=16a34a&ring_color=22c55e&count_private=true" />
   <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=lawsanm&theme=tokyonight&hide_border=true&background=0d1117&ring=22c55e&fire=16a34a&currStreakLabel=22c55e&sideLabels=c9d1d9&dates=555555" />
 </div>
 
