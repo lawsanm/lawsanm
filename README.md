@@ -1,10 +1,10 @@
 <div align="center">
 
 <!-- HEADER SECTION -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:dcfce7,25:86efac,50:22c55e,75:16a34a,100:14532d&height=220&section=header&text=Hey%20there,%20I'm%20Lawsan%20👋&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Full-Stack%20Developer%20•%20UI/UX%20Enthusiast%20•%20Problem%20Solver&descSize=16&descAlignY=55&descAlign=50" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:dcfce7,25:86efac,50:22c55e,75:16a34a,100:14532d&height=220&section=header&text=Hey%20there,%20I'm%20Lawsan%20👋&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Cybersecurity%20Enthusiast%20•%20Machine%20Learning%20•%20CTF%20Player&descSize=16&descAlignY=55&descAlign=50" width="100%"/>
 
 <!-- TYPING ANIMATION -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=600&size=24&pause=1000&color=22C55E&center=true&vCenter=true&multiline=false&repeat=true&width=620&height=50&lines=Building+beautiful+things+for+the+web+%F0%9F%8C%90;Turning+ideas+into+polished+products+%E2%9C%A8;Obsessed+with+dark+themes+%26+clean+UI+%F0%9F%8C%99;CS+Undergrad+%40+UCSC+Sri+Lanka+%F0%9F%8E%93" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=600&size=24&pause=1000&color=22C55E&center=true&vCenter=true&multiline=false&repeat=true&width=620&height=50&lines=Cybersecurity+Enthusiast+%F0%9F%9B%A1%EF%B8%8F;Machine+Learning+Explorer+%F0%9F%A4%96;CTF+Winner+%26+Offensive+Security+Tinkerer+%F0%9F%9A%A9;CS+Undergrad+%40+UCSC+Sri+Lanka+%F0%9F%8E%93" alt="Typing SVG" /></a>
 
 </div>
 
@@ -17,16 +17,18 @@ const lawsan = {
     pronouns: "he" | "him",
     location: "Sri Lanka 🇱🇰",
     education: "BSc Computer Science @ University of Colombo (UCSC)",
-    currentFocus: "Converting my ideas into reality (working on it!)",
-    funFact: "I redesigned my university's entire Moodle LMS because it wasn't pretty enough 😄"
+    currentFocus: ["Cybersecurity", "Machine Learning", "CTF Challenges"],
+    interests: "Offensive security, ML for security, and breaking things to learn how they work",
+    achievements: ["🥉 2nd Runners-Up @ CodeQuest CTF", "🥈 2nd Place @ HACKTIVATE", "🎯 Tech Triathlon Finalist"]
 };
 ```
 
-- 🔭 I'm currently building **premium web experiences** and **browser extensions**
-- 🌱 I'm diving deeper into **Next.js**, **FastAPI**, and **system design**
-- 💡 I love crafting **glassmorphism UIs**, **dark themes**, and **micro-animations**
-- 🎯 Goal: Ship products that feel **premium from the first pixel**
-- ⚡ Fun fact: My Moodle extension has keyboard shortcuts faster than the original LMS itself
+- 🛡️ **Cybersecurity enthusiast** — passionate about offensive security, reverse engineering, and exploit dev
+- 🤖 **Machine Learning explorer** — building ML models and exploring AI for security applications
+- 🚩 **CTF player & winner** — competing in Capture The Flag challenges and learning by hacking
+- 🔭 Currently sharpening skills in **pentesting**, **cryptography**, and **adversarial ML**
+- 🌱 Diving deeper into **system internals**, **network security**, and **ML pipelines**
+- 🎯 Goal: Bridge **security** and **machine learning** to build smarter defensive tools
 
 ---
 
@@ -76,10 +78,24 @@ const lawsan = {
 ![Systems Programming](https://img.shields.io/badge/Systems_Programming-15803d?style=for-the-badge&logo=gnu&logoColor=white)
 ![Concurrency](https://img.shields.io/badge/Concurrency_&_IPC-4ade80?style=for-the-badge&logo=buffer&logoColor=white)
 
-#### AI & Specialized Interests
-![AI Systems](https://img.shields.io/badge/AI_System_Design-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Optimization](https://img.shields.io/badge/Optimization_Algorithms-22c55e?style=for-the-badge&logo=googlemaps&logoColor=white)
-![Web Audio](https://img.shields.io/badge/Web_Audio_API-16a34a?style=for-the-badge&logo=mozilla&logoColor=white)
+#### 🛡️ Cybersecurity
+![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
+![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white)
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
+![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge&logo=metasploit&logoColor=white)
+![Nmap](https://img.shields.io/badge/Nmap-214478?style=for-the-badge&logo=nmap&logoColor=white)
+![TryHackMe](https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=red)
+![HackTheBox](https://img.shields.io/badge/Hack_The_Box-9FEF00?style=for-the-badge&logo=hackthebox&logoColor=black)
+![CTF](https://img.shields.io/badge/CTF_Player-FF0000?style=for-the-badge&logo=ctfdotio&logoColor=white)
+
+#### 🤖 Machine Learning & AI
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
 
 </div>
 
@@ -170,6 +186,51 @@ const lawsan = {
 
 ---
 
+## 🏆 Achievements
+
+<div align="center">
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">🥉 2nd Runners-Up</h3>
+      <h4 align="center">CodeQuest Vault Edition — CTF</h4>
+      <p align="center"><i>Organized by IEEE Student Branch of UCSC</i></p>
+      <p align="center">
+        Competed as <b>Team Quantum Breach</b> alongside
+        Induwara Uthsara & Tharusha Jayasooriya.
+        Tackled challenges across <b>web exploitation</b>, <b>cryptography</b>,
+        <b>reverse engineering</b>, and <b>forensics</b>.
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">🥈 2nd Place</h3>
+      <h4 align="center">HACKTIVATE — Algorithmic Hackathon</h4>
+      <p align="center"><i>Organized by IEEE WIE Student Branch of UCSC</i></p>
+      <p align="center">
+        Solved competitive programming problems in <b>Python</b> with
+        Rajkumar Janagan & Suntharampillai Dishanthan —
+        applying <b>DFS</b>, <b>tree rerooting</b>, <b>sliding window</b>, and
+        graph algorithms under time pressure.
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <h3 align="center">🎯 Finalist — Tech Triathlon by Rootcode</h3>
+      <p align="center">
+        Qualified through every round of Rootcode's <b>Tech Triathlon</b>, competing
+        across multiple technical domains before reaching the grand finale.
+        A masterclass in coding under pressure, teamwork, and pivoting fast.
+      </p>
+    </td>
+  </tr>
+</table>
+
+</div>
+
+---
+
 ## 📊 GitHub Analytics
 
 <div align="center">
@@ -188,6 +249,7 @@ const lawsan = {
 
 <div align="center">
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lawsan/)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lawsanm@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/lawsanm)
 
