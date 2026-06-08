@@ -1,10 +1,10 @@
 <div align="center">
 
 <!-- HEADER SECTION -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:dcfce7,25:86efac,50:22c55e,75:16a34a,100:14532d&height=220&section=header&text=Hey%20there,%20I'm%20Lawsan%20👋&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Cybersecurity%20Enthusiast%20•%20Machine%20Learning%20•%20CTF%20Player&descSize=16&descAlignY=55&descAlign=50" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,25:302b63,50:7c3aed,75:ff00ff,100:00ffff&height=220&section=header&text=Hey%20there,%20I'm%20Lawsan%20👋&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Cybersecurity%20Enthusiast%20•%20Machine%20Learning%20•%20CTF%20Player&descSize=16&descAlignY=55&descAlign=50" width="100%"/>
 
 <!-- TYPING ANIMATION -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=600&size=24&pause=1000&color=22C55E&center=true&vCenter=true&multiline=false&repeat=true&width=620&height=50&lines=Cybersecurity+Enthusiast+%F0%9F%9B%A1%EF%B8%8F;Machine+Learning+Explorer+%F0%9F%A4%96;CTF+Winner+%26+Offensive+Security+Tinkerer+%F0%9F%9A%A9;CS+Undergrad+%40+UCSC+Sri+Lanka+%F0%9F%8E%93" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=600&size=24&pause=1000&color=FF00FF&center=true&vCenter=true&multiline=false&repeat=true&width=620&height=50&lines=Cybersecurity+Enthusiast+%F0%9F%9B%A1%EF%B8%8F;Machine+Learning+Explorer+%F0%9F%A4%96;CTF+Winner+%26+Offensive+Security+Tinkerer+%F0%9F%9A%A9;CS+Undergrad+%40+UCSC+Sri+Lanka+%F0%9F%8E%93" alt="Typing SVG" /></a>
 
 </div>
 
@@ -234,13 +234,13 @@ const lawsan = {
 ## 📊 GitHub Analytics
 
 <div align="center">
-  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=lawsanm&theme=tokyonight&hide_border=true&background=0d1117&ring=22c55e&fire=16a34a&currStreakLabel=22c55e&sideLabels=c9d1d9&dates=555555" />
+  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=lawsanm&theme=radical&hide_border=true&background=0f0c29&ring=ff00ff&fire=00ffff&currStreakLabel=ff00ff&sideLabels=c9d1d9&dates=a78bfa" />
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=lawsanm&bg_color=0d1117&color=22c55e&line=16a34a&point=22c55e&area=true&area_color=16a34a&hide_border=true" width="95%"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=lawsanm&bg_color=0f0c29&color=ff00ff&line=00ffff&point=ff00ff&area=true&area_color=7c3aed&hide_border=true" width="95%"/>
 </div>
 
 ---
@@ -255,7 +255,7 @@ const lawsan = {
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=lawsanm&style=for-the-badge&color=16a34a&label=PROFILE+VIEWS" alt="Profile Views"/>
+<img src="https://komarev.com/ghpvc/?username=lawsanm&style=for-the-badge&color=ff00ff&label=PROFILE+VIEWS" alt="Profile Views"/>
 
 </div>
 
@@ -265,6 +265,6 @@ const lawsan = {
   
   *"The best way to predict the future is to build it."*
 
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:dcfce7,25:86efac,50:22c55e,75:16a34a,100:14532d&height=100&section=footer" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ffff,25:ff00ff,50:7c3aed,75:302b63,100:0f0c29&height=100&section=footer" width="100%"/>
 
 </div>
