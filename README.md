@@ -234,7 +234,11 @@ const lawsan = {
 ## 📊 GitHub Analytics
 
 <div align="center">
-  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=lawsanm&theme=highcontrast&hide_border=true&background=000000&ring=00ff41&fire=39ff14&currStreakLabel=00ff41&sideLabels=39ff14&dates=00ff41" />
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=lawsanm&show_icons=true&hide_border=true&bg_color=000000&title_color=00ff41&text_color=39ff14&icon_color=00ff41&count_private=true&include_all_commits=true" />
+&nbsp;&nbsp;
+<img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=lawsanm&theme=highcontrast&hide_border=true&background=000000&ring=00ff41&fire=39ff14&currStreakLabel=00ff41&sideLabels=39ff14&dates=39ff14" />
+
 </div>
 
 <br/>
