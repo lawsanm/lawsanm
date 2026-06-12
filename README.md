@@ -154,8 +154,6 @@ const lawsan = {
 
 ---
 
-
-
 ### 🧘 LawZen — Focus & Anti-Procrastination
 > *A personal Pomodoro timer and task manager built to fight procrastination*
 
@@ -235,13 +233,13 @@ const lawsan = {
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=lawsanm&show_icons=true&hide_border=true&bg_color=000000&title_color=00ff41&text_color=39ff14&icon_color=00ff41&count_private=true&include_all_commits=true" />
-&nbsp;&nbsp;
 <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=lawsanm&theme=highcontrast&hide_border=true&background=000000&ring=00ff41&fire=39ff14&currStreakLabel=00ff41&sideLabels=39ff14&dates=39ff14" />
 
 </div>
 
-<br/>
+---
+
+## 📈 Contribution Graph
 
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=lawsanm&bg_color=000000&color=00ff41&line=39ff14&point=00ff41&area=true&area_color=003b00&hide_border=true" width="95%"/>
