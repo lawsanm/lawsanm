@@ -17,6 +17,7 @@ Pipeline
 """
 
 import argparse
+import functools
 import os
 import sys
 
@@ -67,20 +68,26 @@ PX0, PY0 = 46.0, 96.0
 CELL = 400.0 / GW                 # 1.3333 px per grid cell
 RX, RY, RW = 482, 72, 664         # right readout column
 ROW0, ROWSTEP, GROUPGAP = 128, 23.0, 12.0
-FS, MONO_ADV = 14, 0.6            # row font-size; monospace advance ratio
+FS = 14                           # row font-size
 
-FONT = "'JetBrains Mono','Fira Code','DejaVu Sans Mono',Menlo,Consolas,monospace"
+# The typeface is subset and embedded as a data URI, so the readout looks the
+# same everywhere instead of resolving to Consolas / Menlo / DejaVu per OS.
+FACE = "LawMono"
+FONT_SRC = r"C:/Windows/Fonts/CascadiaMono.ttf"     # SIL OFL 1.1
+FONT = "'%s','Cascadia Mono','DejaVu Sans Mono',Menlo,Consolas,monospace" % FACE
+MONO_ADV = 1200 / 2048.0          # Cascadia Mono advance / upem — exact, so
+                                  # textLength never has to stretch glyphs
 
 THEMES = {
     "dark": dict(
-        bg="#0A101F", panel="#0C1322", border="#1E293B", grid="#151E33",
-        chrome="#22D3EE", portrait="#A78BFA", accent="#10B981",
-        text="#CBD5E1", dim="#64748B", leader="#233046", pill_fg="#04121A",
+        bg="#060B12", panel="#0A1119", border="#1B2735", grid="#141E2B",
+        chrome="#34D399", portrait="#F0A868", accent="#A3E635",
+        text="#DCE7F0", dim="#5F7488", leader="#1D2A38", pill_fg="#0B2911",
     ),
     "light": dict(
-        bg="#FFFFFF", panel="#F6F8FC", border="#D5DEEA", grid="#E7EDF6",
-        chrome="#0891B2", portrait="#7C3AED", accent="#059669",
-        text="#1E293B", dim="#64748B", leader="#C7D3E3", pill_fg="#FFFFFF",
+        bg="#FFFFFF", panel="#F7F9FB", border="#DBE3EB", grid="#EAF0F5",
+        chrome="#0D9488", portrait="#A85F14", accent="#4D7C0F",
+        text="#0F1B2A", dim="#6B7C8E", leader="#CBD7E2", pill_fg="#FFFFFF",
     ),
 }
 
@@ -362,6 +369,48 @@ def evenness(pts, group, ngroups, cells=6):
     return float(np.mean(tv))
 
 
+# ═══════════════════════════════════════════════════════════ 4b. embedded font
+
+@functools.lru_cache(maxsize=1)
+def font_face():
+    """Subset Cascadia Mono to the glyphs this banner actually uses and inline
+    it as a data URI. GitHub renders the README SVG through <img>, which blocks
+    every external reference — a data URI is part of the document, so it is the
+    only way to control the typography. Two static instances are cut from the
+    variable font; @font-face weight ranges are less reliably honoured in
+    SVG-as-image."""
+    import base64
+    import io
+
+    from fontTools import subset
+    from fontTools.ttLib import TTFont
+    from fontTools.varLib import instancer
+
+    chars = {" "}
+    for row in ROWS:
+        if row:
+            chars |= set(row[0]) | set(row[1])
+    for s in (TITLE, HANDLE, "VISUAL.MAP", "SYSTEM.INFO", "LIVE"):
+        chars |= set(s)
+
+    css = []
+    for weight in (400, 700):
+        f = instancer.instantiateVariableFont(TTFont(FONT_SRC), {"wght": weight})
+        opt = subset.Options(layout_features=[], notdef_outline=True,
+                             desubroutinize=True, drop_tables=["DSIG"])
+        s = subset.Subsetter(options=opt)
+        s.populate(text="".join(sorted(chars)))
+        s.subset(f)
+        buf = io.BytesIO()
+        f.save(buf)
+        b64 = base64.b64encode(buf.getvalue()).decode()
+        log("    font w%d: %d glyphs, %.1f KB embedded" % (weight, len(chars), len(b64) / 1024))
+        css.append("@font-face{font-family:'%s';font-style:normal;font-weight:%d;"
+                   "src:url(data:font/ttf;base64,%s) format('truetype');}"
+                   % (FACE, weight, b64))
+    return "".join(css)
+
+
 # ═════════════════════════════════════════════════════════════════ 5. SVG emit
 
 def runs_path(pts_by_group, ngroups):
@@ -468,9 +517,12 @@ def build_svg(theme, dots, mask, clouds):
     # ── chrome ───────────────────────────────────────────────────────────────
     o = []
     a = o.append
+    # crispEdges belongs on the dot layers only. Inherited from the root it
+    # also lands on every <text>, which kills antialiasing and makes the
+    # readout look chunky and broken.
     a('<svg xmlns="http://www.w3.org/2000/svg" width="%d" height="%d" '
-      'viewBox="0 0 %d %d" font-family="%s" shape-rendering="crispEdges">'
-      % (W, H, W, H, FONT))
+      'viewBox="0 0 %d %d" font-family="%s">' % (W, H, W, H, FONT))
+    a('<defs><style type="text/css"><![CDATA[%s]]></style></defs>' % font_face())
     a('<rect width="%d" height="%d" fill="%s"/>' % (W, H, C["bg"]))
     a('<rect x="%d" y="%d" width="%d" height="%d" rx="10" fill="%s" stroke="%s"/>'
       % (WX, WY, WW, WH, C["panel"], C["border"]))
@@ -480,18 +532,19 @@ def build_svg(theme, dots, mask, clouds):
       % (WX, WY + BAR, WX + WW, WY + BAR, C["border"]))
     for i, col in enumerate(("#FF5F57", "#FEBC2E", "#28C840")):
         a('<circle cx="%d" cy="%d" r="5.5" fill="%s"/>' % (WX + 24 + i * 20, WY + BAR / 2, col))
-    a(text(W / 2, WY + BAR / 2 + 4.5, TITLE, C["dim"], 13, 500, "middle"))
+    a(text(W / 2, WY + BAR / 2 + 4.5, TITLE, C["dim"], 13, 400, "middle"))
 
     # portrait frame
     a('<rect x="%d" y="%d" width="%d" height="%d" rx="6" fill="none" stroke="%s"/>'
       % (PANEL_X, PANEL_Y, PANEL_W, PANEL_H, C["border"]))
-    a(text(PANEL_X + 12, PANEL_Y + 17, "VISUAL.MAP", C["chrome"], 11, 600,
+    a(text(PANEL_X + 12, PANEL_Y + 17, "VISUAL.MAP", C["chrome"], 11, 700,
            extra=' letter-spacing="1.6"'))
     a('<line x1="%d" y1="%d" x2="%d" y2="%d" stroke="%s"/>'
       % (PANEL_X, PANEL_Y + 24, PANEL_X + PANEL_W, PANEL_Y + 24, C["border"]))
 
     # ── portrait: intro layer (fades in once, then hands over) ───────────────
-    a('<g stroke="%s" stroke-width="%s" opacity="1">' % (C["portrait"], r1(CELL)))
+    a('<g stroke="%s" stroke-width="%s" opacity="1" shape-rendering="crispEdges">'
+      % (C["portrait"], r1(CELL)))
     a('<animate attributeName="opacity" to="0" begin="%ss" dur="0.01s" fill="freeze"/>' % INTRO)
     for g, d in enumerate(intro_paths):
         if not d:
@@ -503,7 +556,8 @@ def build_svg(theme, dots, mask, clouds):
 
     # ── portrait: loop layer (drift bands) ──────────────────────────────────
     kt5 = kt(0, T_PORTRAIT, T_PORTRAIT + T_TRANS, LOOP - T_TRANS, LOOP)
-    a('<g stroke="%s" stroke-width="%s" opacity="0">' % (C["portrait"], r1(CELL)))
+    a('<g stroke="%s" stroke-width="%s" opacity="0" shape-rendering="crispEdges">'
+      % (C["portrait"], r1(CELL)))
     a('<animate attributeName="opacity" to="1" begin="%ss" dur="0.01s" fill="freeze"/>' % INTRO)
     for b, d in enumerate(band_paths):
         if not d:
@@ -519,14 +573,14 @@ def build_svg(theme, dots, mask, clouds):
     a('</g>')
 
     # ── travellers ───────────────────────────────────────────────────────────
-    a('<g fill="%s" opacity="0">' % C["chrome"])
+    a('<g fill="%s" opacity="0" shape-rendering="crispEdges">' % C["chrome"])
     a('<animate attributeName="opacity" values="0;0;1;1;1;1;1;1;0" keyTimes="%s" '
       'dur="%ss" begin="%ss" repeatCount="indefinite"/>' % (KT, LOOP, INTRO))
     a("".join(trav))
     a('</g>')
 
     # ── readout ──────────────────────────────────────────────────────────────
-    a(text(RX, PANEL_Y + 17, "SYSTEM.INFO", C["chrome"], 11, 600,
+    a(text(RX, PANEL_Y + 17, "SYSTEM.INFO", C["chrome"], 11, 700,
            extra=' letter-spacing="1.6"'))
     a('<circle cx="%d" cy="%d" r="4" fill="#EF4444">'
       '<animate attributeName="opacity" values="1;0.15;1" dur="1.6s" repeatCount="indefinite"/>'
