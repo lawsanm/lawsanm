@@ -1,14 +1,25 @@
+<!--
+  ─────────────────────────────────────────────────────────────
+  Palette
+    portrait   #A78BFA (dark)  /  #7C3AED (light)
+    UI chrome  #22D3EE (dark)  /  #0891B2 (light)
+    accent     #10B981
+    background #0A101F
+  ─────────────────────────────────────────────────────────────
+-->
+
 <div align="center">
 
-<!-- HEADER SECTION -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,25:001a00,50:003b00,75:00ff41,100:39ff14&height=220&section=header&text=Hey%20there,%20I'm%20Lawsan%20👋&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Cybersecurity%20Enthusiast%20•%20Machine%20Learning%20•%20CTF%20Player&descSize=16&descAlignY=55&descAlign=50" width="100%"/>
-
-<!-- TYPING ANIMATION -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=600&size=24&pause=1000&color=00FF41&center=true&vCenter=true&multiline=false&repeat=true&width=620&height=50&lines=Cybersecurity+Enthusiast+%F0%9F%9B%A1%EF%B8%8F;Machine+Learning+Explorer+%F0%9F%A4%96;CTF+Winner+%26+Offensive+Security+Tinkerer+%F0%9F%9A%A9;CS+Undergrad+%40+UCSC+Sri+Lanka+%F0%9F%8E%93" alt="Typing SVG" /></a>
+<!-- ══════════════ BANNER — profile.sh --live ══════════════ -->
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/lawsanm/lawsanm/main/assets/dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lawsanm/lawsanm/main/assets/light.svg">
+  <img alt="Lawsan — profile.sh --live" src="https://raw.githubusercontent.com/lawsanm/lawsanm/main/assets/dark.svg" width="100%">
+</picture>
 
 </div>
 
----
+<br/>
 
 ## 🧑‍💻 About Me
 
@@ -23,12 +34,12 @@ const lawsan = {
 };
 ```
 
-- 🛡️ **Cybersecurity enthusiast** — passionate about offensive security, reverse engineering, and exploit dev
+- 🛡️ **Cybersecurity enthusiast** — offensive security, reverse engineering, and exploit dev
 - 🤖 **Machine Learning explorer** — building ML models and exploring AI for security applications
 - 🚩 **CTF player & winner** — competing in Capture The Flag challenges and learning by hacking
-- 🔭 Currently sharpening skills in **pentesting**, **cryptography**, and **adversarial ML**
+- 🔭 Currently sharpening **pentesting**, **cryptography**, and **adversarial ML**
 - 🌱 Diving deeper into **system internals**, **network security**, and **ML pipelines**
-- 🎯 Goal: Bridge **security** and **machine learning** to build smarter defensive tools
+- 🎯 Goal: bridge **security** and **machine learning** to build smarter defensive tools
 
 ---
 
@@ -65,7 +76,6 @@ const lawsan = {
 
 #### Tools & Platforms
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
@@ -73,10 +83,10 @@ const lawsan = {
 ![Chrome Extensions](https://img.shields.io/badge/Chrome_Extensions-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)
 
 #### Systems & CS Fundamentals
-![DSA](https://img.shields.io/badge/Data_Structures_&_Algorithms-166534?style=for-the-badge&logo=leetcode&logoColor=white)
-![OS](https://img.shields.io/badge/Operating_Systems-22c55e?style=for-the-badge&logo=linux&logoColor=white)
-![Systems Programming](https://img.shields.io/badge/Systems_Programming-15803d?style=for-the-badge&logo=gnu&logoColor=white)
-![Concurrency](https://img.shields.io/badge/Concurrency_&_IPC-4ade80?style=for-the-badge&logo=buffer&logoColor=white)
+![DSA](https://img.shields.io/badge/Data_Structures_&_Algorithms-7C3AED?style=for-the-badge&logo=leetcode&logoColor=white)
+![OS](https://img.shields.io/badge/Operating_Systems-A78BFA?style=for-the-badge&logo=linux&logoColor=white)
+![Systems Programming](https://img.shields.io/badge/Systems_Programming-6D28D9?style=for-the-badge&logo=gnu&logoColor=white)
+![Concurrency](https://img.shields.io/badge/Concurrency_&_IPC-8B5CF6?style=for-the-badge&logo=buffer&logoColor=white)
 
 #### 🛡️ Cybersecurity
 ![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
@@ -196,7 +206,7 @@ const lawsan = {
       <p align="center"><i>Organized by IEEE Student Branch of UCSC</i></p>
       <p align="center">
         Competed as <b>Team Quantum Breach</b> alongside
-        Induwara Uthsara & Tharusha Jayasooriya.
+        Induwara Uthsara &amp; Tharusha Jayasooriya.
         Tackled challenges across <b>web exploitation</b>, <b>cryptography</b>,
         <b>reverse engineering</b>, and <b>forensics</b>.
       </p>
@@ -207,7 +217,7 @@ const lawsan = {
       <p align="center"><i>Organized by IEEE WIE Student Branch of UCSC</i></p>
       <p align="center">
         Solved competitive programming problems in <b>Python</b> with
-        Rajkumar Janagan & Suntharampillai Dishanthan —
+        Rajkumar Janagan &amp; Suntharampillai Dishanthan —
         applying <b>DFS</b>, <b>tree rerooting</b>, <b>sliding window</b>, and
         graph algorithms under time pressure.
       </p>
@@ -231,18 +241,48 @@ const lawsan = {
 
 ## 📊 GitHub Analytics
 
+<!--
+  Stats cards point at the PUBLIC github-readme-stats instance so this README
+  renders today. That instance is shared by thousands of profiles and regularly
+  returns "API rate limit exceeded".
+
+  Fix: self-host it (see the checklist at the bottom), then replace every
+  occurrence of  github-readme-stats.vercel.app  below with your own
+  <your-fork>.vercel.app instance.
+
+  hide_rank=true is deliberate — the rank grade is stars-weighted, so a newer
+  account gets a low letter regardless of how much it actually ships.
+-->
+
 <div align="center">
 
-<img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=lawsanm&theme=highcontrast&hide_border=true&background=000000&ring=00ff41&fire=39ff14&currStreakLabel=00ff41&sideLabels=39ff14&dates=39ff14" />
+<img width="100%" alt="GitHub streak"
+     src="https://streak-stats.demolab.com?user=lawsanm&hide_border=true&background=0A101F&border=1E293B&stroke=1E293B&ring=22D3EE&fire=10B981&currStreakNum=A78BFA&sideNums=A78BFA&currStreakLabel=22D3EE&sideLabels=22D3EE&dates=64748B" />
+
+<img width="49%" alt="GitHub stats"
+     src="https://github-readme-stats.vercel.app/api?username=lawsanm&show_icons=true&hide_rank=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=0A101F&title_color=22D3EE&text_color=A78BFA&icon_color=10B981" />
+<img width="49%" alt="Top languages"
+     src="https://github-readme-stats.vercel.app/api/top-langs/?username=lawsanm&layout=compact&langs_count=8&hide_border=true&bg_color=0A101F&title_color=22D3EE&text_color=A78BFA" />
 
 </div>
 
 ---
 
-## 📈 Contribution Graph
+## 🐍 Contribution Snake
+
+<!--
+  Requires .github/workflows/snake.yml to have run at least once and gone green.
+  Until then the `output` branch does not exist and these images 404.
+-->
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=lawsanm&bg_color=000000&color=00ff41&line=39ff14&point=00ff41&area=true&area_color=003b00&hide_border=true" width="95%"/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/lawsanm/lawsanm/output/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lawsanm/lawsanm/output/snake-light.svg">
+  <img alt="Contribution snake" src="https://raw.githubusercontent.com/lawsanm/lawsanm/output/snake-dark.svg" width="100%">
+</picture>
+
 </div>
 
 ---
@@ -251,22 +291,64 @@ const lawsan = {
 
 <div align="center">
 
+<!--
+  LinkedIn's shields.io logo only renders on brand blue #0A66C2. On any custom
+  colour the glyph silently vanishes and you're left with bare text — so this
+  one badge stays brand blue on purpose.
+-->
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lawsan/)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lawsanm@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/lawsanm)
+&nbsp;&nbsp;
+[![Gmail](https://img.shields.io/badge/Email-0A101F?style=for-the-badge&logo=gmail&logoColor=10B981)](mailto:lawsanm@gmail.com)
+&nbsp;&nbsp;
+[![Instagram](https://img.shields.io/badge/Instagram-0A101F?style=for-the-badge&logo=instagram&logoColor=A78BFA)](https://www.instagram.com/m.lawsan)
+
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=lawsanm&style=for-the-badge&color=10B981&label=PROFILE+VIEWS" alt="Profile views"/>
+
+</div>
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=lawsanm&style=for-the-badge&color=00ff41&label=PROFILE+VIEWS" alt="Profile Views"/>
-
-</div>
-
----
-
 <div align="center">
-  
-  *"The best way to predict the future is to build it."*
 
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:39ff14,25:00ff41,50:003b00,75:001a00,100:000000&height=100&section=footer" width="100%"/>
+*"The best way to predict the future is to build it."*
 
 </div>
+
+<!--
+═══════════════════════════════════════════════════════════════════════
+  BY-HAND CHECKLIST — things this file assumes but cannot do for you
+═══════════════════════════════════════════════════════════════════════
+
+BANNER
+  [x] assets/dark.svg + assets/light.svg generated from Law.png.
+      Regenerate with:  python tools/generate_banner.py
+      tools/generate_banner.py + tools/data/*.npy are the source of truth —
+      don't hand-edit the SVGs.
+  [ ] Commit assets/ to main and push, or the <picture> block 404s
+
+STATS (Phase 2 — self-host github-readme-stats)
+  [ ] GitHub → Settings → Developer settings → Personal access tokens →
+      Tokens (classic) → Generate new (classic) → scope: repo → No expiration.
+      Copy it immediately. Never paste it into a repo, an issue, or a chat.
+  [ ] Fork anuraghazra/github-readme-stats
+  [ ] vercel.com → sign up with GitHub → Hobby (free) → Add New Project →
+      import your fork
+  [ ] Add env var  PAT_1 = <your token>  → Deploy
+  [ ] Replace both  github-readme-stats.vercel.app  URLs above with your
+      instance hostname
+
+SNAKE (Phase 3)
+  [x] .github/workflows/snake.yml added
+  [ ] REPO Settings → Actions → General → Workflow permissions →
+      "Read and write permissions" → Save.  This is the REPOSITORY's settings
+      page, not your account settings. Without it the push step 403s.
+  [ ] Push, then Actions → snake → Run workflow, and wait for green. The
+      `output` branch does not exist until then, so the snake block above 404s.
+
+BADGES (Phase 4)
+  [x] done — LinkedIn, Email, Instagram
+
+═══════════════════════════════════════════════════════════════════════
+-->
