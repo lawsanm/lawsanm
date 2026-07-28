@@ -48,7 +48,7 @@ jobs:
             dist/snake-light.svg?color_snake=%23A85F14&color_dots=%23E6EDE9,%23A7F3D0,%236EE7B7,%2310B981,%23047857
 
       - name: Publish to the output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+        uses: crazy-max/ghaction-github-pages@v5.0.0
         with:
           target_branch: output
           build_dir: dist
