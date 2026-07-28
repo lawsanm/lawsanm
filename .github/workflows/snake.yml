@@ -35,13 +35,17 @@ jobs:
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
+          # Dots ride the banner's emerald ramp; the snake is the banner's amber
+          # (#F0A868 dark / #A85F14 light) so it stays legible crossing a dark
+          # green cell — a green snake on green dots is invisible mid-grid.
+          #
           # The FIRST colour in color_dots is the empty cell, not the lowest
           # contribution level. On the dark snake it has to be a visible slate:
           # against GitHub's #0d1117 a near-black empty cell vanishes and the
           # grid reads as broken rather than empty.
           outputs: |
-            dist/snake-dark.svg?color_snake=%2322D3EE&color_dots=%232d3343,%234c1d95,%236d28d9,%238b5cf6,%23a78bfa
-            dist/snake-light.svg?color_snake=%230891B2&color_dots=%23e2e8f0,%23ddd6fe,%23a78bfa,%237c3aed,%235b21b6
+            dist/snake-dark.svg?color_snake=%23F0A868&color_dots=%23243430,%23064E3B,%23047857,%2310B981,%2334D399
+            dist/snake-light.svg?color_snake=%23A85F14&color_dots=%23E6EDE9,%23A7F3D0,%236EE7B7,%2310B981,%23047857
 
       - name: Publish to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
