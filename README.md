@@ -1,10 +1,14 @@
 <!--
   ─────────────────────────────────────────────────────────────
-  Palette
-    portrait   #A78BFA (dark)  /  #7C3AED (light)
-    UI chrome  #22D3EE (dark)  /  #0891B2 (light)
-    accent     #10B981
-    background #0A101F
+  Palette — Matrix (black + electric green)
+    matrix green #00FF41 (dark)  /  #046A20 (light)   headings, chrome, rings
+    neon green   #39FF14 (dark)  /  #0A7D26 (light)   secondary accent
+    body text    #C8FFD4 (dark)  /  #02220A (light)
+    deep green   #003B00  borders      #001A00  grid
+    background   #000000 (dark)  /  #FFFFFF (light)
+
+  Body copy is pale green #C8FFD4, not #00FF41 — a full-neon paragraph on black
+  vibrates and is genuinely hard to read. Neon is for headings and accents only.
   ─────────────────────────────────────────────────────────────
 -->
 
@@ -83,10 +87,10 @@ const lawsan = {
 ![Chrome Extensions](https://img.shields.io/badge/Chrome_Extensions-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)
 
 #### Systems & CS Fundamentals
-![DSA](https://img.shields.io/badge/Data_Structures_&_Algorithms-7C3AED?style=for-the-badge&logo=leetcode&logoColor=white)
-![OS](https://img.shields.io/badge/Operating_Systems-A78BFA?style=for-the-badge&logo=linux&logoColor=white)
-![Systems Programming](https://img.shields.io/badge/Systems_Programming-6D28D9?style=for-the-badge&logo=gnu&logoColor=white)
-![Concurrency](https://img.shields.io/badge/Concurrency_&_IPC-8B5CF6?style=for-the-badge&logo=buffer&logoColor=white)
+![DSA](https://img.shields.io/badge/Data_Structures_&_Algorithms-003B00?style=for-the-badge&logo=leetcode&logoColor=00FF41)
+![OS](https://img.shields.io/badge/Operating_Systems-015C1D?style=for-the-badge&logo=linux&logoColor=00FF41)
+![Systems Programming](https://img.shields.io/badge/Systems_Programming-017A26?style=for-the-badge&logo=gnu&logoColor=00FF41)
+![Concurrency](https://img.shields.io/badge/Concurrency_&_IPC-019632?style=for-the-badge&logo=buffer&logoColor=C8FFD4)
 
 #### 🛡️ Cybersecurity
 ![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
@@ -257,12 +261,12 @@ const lawsan = {
 <div align="center">
 
 <img width="100%" alt="GitHub streak"
-     src="https://streak-stats.demolab.com?user=lawsanm&hide_border=true&background=0A101F&border=1E293B&stroke=1E293B&ring=22D3EE&fire=10B981&currStreakNum=A78BFA&sideNums=A78BFA&currStreakLabel=22D3EE&sideLabels=22D3EE&dates=64748B" />
+     src="https://streak-stats.demolab.com?user=lawsanm&hide_border=true&background=000000&border=003B00&stroke=003B00&ring=00FF41&fire=39FF14&currStreakNum=00FF41&sideNums=39FF14&currStreakLabel=00FF41&sideLabels=00FF41&dates=4F8A5C" />
 
 <img width="49%" alt="GitHub stats"
-     src="https://github-readme-stats.vercel.app/api?username=lawsanm&show_icons=true&hide_rank=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=0A101F&title_color=22D3EE&text_color=A78BFA&icon_color=10B981" />
+     src="https://github-readme-stats.vercel.app/api?username=lawsanm&show_icons=true&hide_rank=true&hide_border=true&include_all_commits=true&count_private=true&bg_color=000000&title_color=00FF41&text_color=C8FFD4&icon_color=39FF14" />
 <img width="49%" alt="Top languages"
-     src="https://github-readme-stats.vercel.app/api/top-langs/?username=lawsanm&layout=compact&langs_count=8&hide_border=true&bg_color=0A101F&title_color=22D3EE&text_color=A78BFA" />
+     src="https://github-readme-stats.vercel.app/api/top-langs/?username=lawsanm&layout=compact&langs_count=8&hide_border=true&bg_color=000000&title_color=00FF41&text_color=C8FFD4" />
 
 </div>
 
@@ -298,13 +302,13 @@ const lawsan = {
 -->
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lawsan/)
 &nbsp;&nbsp;
-[![Gmail](https://img.shields.io/badge/Email-0A101F?style=for-the-badge&logo=gmail&logoColor=10B981)](mailto:lawsanm@gmail.com)
+[![Gmail](https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=00FF41)](mailto:lawsanm@gmail.com)
 &nbsp;&nbsp;
-[![Instagram](https://img.shields.io/badge/Instagram-0A101F?style=for-the-badge&logo=instagram&logoColor=A78BFA)](https://www.instagram.com/m.lawsan)
+[![Instagram](https://img.shields.io/badge/Instagram-000000?style=for-the-badge&logo=instagram&logoColor=39FF14)](https://www.instagram.com/m.lawsan)
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=lawsanm&style=for-the-badge&color=10B981&label=PROFILE+VIEWS" alt="Profile views"/>
+<img src="https://komarev.com/ghpvc/?username=lawsanm&style=for-the-badge&color=00FF41&label=PROFILE+VIEWS" alt="Profile views"/>
 
 </div>
 

@@ -79,15 +79,18 @@ MONO_ADV = 1200 / 2048.0          # Cascadia Mono advance / upem — exact, so
                                   # textLength never has to stretch glyphs
 
 THEMES = {
+    # Matrix: black + electric green. The ramp is a single hue at four
+    # brightnesses, so `dim` has to stay green-grey rather than slate — a blue
+    # grey next to #00FF41 reads as a colour mistake, not as muted text.
     "dark": dict(
-        bg="#060B12", panel="#0A1119", border="#1B2735", grid="#141E2B",
-        chrome="#34D399", portrait="#F0A868", accent="#A3E635",
-        text="#DCE7F0", dim="#5F7488", leader="#1D2A38", pill_fg="#0B2911",
+        bg="#000000", panel="#020A02", border="#003B00", grid="#001A00",
+        chrome="#00FF41", portrait="#39FF14", accent="#00FF41",
+        text="#C8FFD4", dim="#4F8A5C", leader="#003B00", pill_fg="#001A00",
     ),
     "light": dict(
-        bg="#FFFFFF", panel="#F7F9FB", border="#DBE3EB", grid="#EAF0F5",
-        chrome="#0D9488", portrait="#A85F14", accent="#4D7C0F",
-        text="#0F1B2A", dim="#6B7C8E", leader="#CBD7E2", pill_fg="#FFFFFF",
+        bg="#FFFFFF", panel="#F4FBF5", border="#BFE6C6", grid="#E4F5E8",
+        chrome="#046A20", portrait="#0A7D26", accent="#046A20",
+        text="#02220A", dim="#4A6B51", leader="#CDEBD4", pill_fg="#FFFFFF",
     ),
 }
 
