@@ -327,6 +327,8 @@ const lawsan = {
 
 BANNER
   [x] assets/dark.svg + assets/light.svg generated from Law.png.
+      Law.png is untracked (see .gitignore) — keep a local copy at the repo
+      root if you need to regenerate.
       Regenerate with:  python tools/generate_banner.py
       tools/generate_banner.py + tools/data/*.npy are the source of truth —
       don't hand-edit the SVGs.
